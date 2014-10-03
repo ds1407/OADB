@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OADB.master.cs" Inherits="OADB.OADB" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>OADB</title>
+    <link href="Styles/OADBStyles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width: 100%; border-color:#265B8D; background-color: #265B8D; height:78px">
+            <tr>
+                <td style="color: white; font-weight: bold; font-size:x-large; vertical-align:middle; " >
+                    <img alt="" src="Images/US_Department_of_Homeland_Security_Seal.png"/> DHS Acquisition Tracking Solution</td>
+                <td style="text-align: right; color: white; font-weight: bold">
+                    <asp:Label ID="lblLoginUserName" runat="server" Text="Amy Shah"></asp:Label>&nbsp;&nbsp;<br />
+                    <asp:Label ID="lblDateNow" runat="server"></asp:Label>&nbsp;&nbsp;
+                </td>
+            </tr>
+        </table>
+        <div>
+            <div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer" id="footer11" style="width: 100%; text-align: center;">
+                <asp:ContentPlaceHolder ID="Footer" runat="server" />
+                <div id="disclaimer">
+                    <br />
+                    <br />
+                    <hr class="HrFooter" />
+                    <table>
+                        <tbody>
+                            <tr style="width: 100%; text-align: center;">
+                                <td class="PageFooter">Copyright © 2014 Deloitte Development LLC. All rights reserved.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OADBConnectionString-Web.config Connection String" description="OADBConnectionString Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:f4f0nac0nz.database.windows.net,1433;Database=OADB;User ID=OADBuser@f4f0nac0nz;Password=Deloitte.2014;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dsanidad\\Documents\\Deloitte\\DHS\\OADB\\OADB-Azure_09222014\\OADB\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OADBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

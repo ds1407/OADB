@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE89FCED-89F9-4CF9-B8DA-CC17A206CABE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OADB</RootNamespace>
+    <AssemblyName>OADB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcqProfLandingPage.aspx" />
+    <Content Include="AcquisitionProfessionalProfile.aspx" />
+    <Content Include="Budget.aspx" />
+    <Content Include="ContractLandingPage.aspx" />
+    <Content Include="ContractorProfile.aspx" />
+    <Content Include="ContractProfile.aspx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\DHSLogo.jpg" />
+    <Content Include="Images\ICEbanner-logo.png" />
+    <Content Include="Images\ICEBanner.PNG" />
+    <Content Include="Images\ICEBanner2.PNG" />
+    <Content Include="Images\Mail-icon.png" />
+    <Content Include="Images\tsa_banner.jpg" />
+    <Content Include="Images\US_Department_of_Homeland_Security_Seal.png" />
+    <Content Include="Images\US_Department_of_Homeland_Security_Seal.svg" />
+    <Content Include="OADB.Master" />
+    <Content Include="Workload.aspx" />
+    <None Include="Properties\PublishProfiles\OADB %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\OADB.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PRLandingPage.aspx" />
+    <Content Include="PRProfile.aspx" />
+    <Content Include="PRStatusChecker.aspx" />
+    <Content Include="Styles\OADBStyles.css" />
+    <Content Include="TaskOrderLandingPage.aspx" />
+    <Content Include="TaskOrderModProfile.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcqProfLandingPage.aspx.cs">
+      <DependentUpon>AcqProfLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcqProfLandingPage.aspx.designer.cs">
+      <DependentUpon>AcqProfLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcquisitionProfessionalProfile.aspx.cs">
+      <DependentUpon>AcquisitionProfessionalProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcquisitionProfessionalProfile.aspx.designer.cs">
+      <DependentUpon>AcquisitionProfessionalProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Budget.aspx.cs">
+      <DependentUpon>Budget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Budget.aspx.designer.cs">
+      <DependentUpon>Budget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLandingPage.aspx.cs">
+      <DependentUpon>ContractLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContractLandingPage.aspx.designer.cs">
+      <DependentUpon>ContractLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContractorProfile.aspx.cs">
+      <DependentUpon>ContractorProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContractorProfile.aspx.designer.cs">
+      <DependentUpon>ContractorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContractProfile.aspx.cs">
+      <DependentUpon>ContractProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContractProfile.aspx.designer.cs">
+      <DependentUpon>ContractProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OADB.Master.cs">
+      <DependentUpon>OADB.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OADB.Master.designer.cs">
+      <DependentUpon>OADB.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PRLandingPage.aspx.cs">
+      <DependentUpon>PRLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRLandingPage.aspx.designer.cs">
+      <DependentUpon>PRLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PRProfile.aspx.cs">
+      <DependentUpon>PRProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRProfile.aspx.designer.cs">
+      <DependentUpon>PRProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRStatusChecker.aspx.cs">
+      <DependentUpon>PRStatusChecker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRStatusChecker.aspx.designer.cs">
+      <DependentUpon>PRStatusChecker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TaskOrderLandingPage.aspx.cs">
+      <DependentUpon>TaskOrderLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TaskOrderLandingPage.aspx.designer.cs">
+      <DependentUpon>TaskOrderLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TaskOrderModProfile.aspx.cs">
+      <DependentUpon>TaskOrderModProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TaskOrderModProfile.aspx.designer.cs">
+      <DependentUpon>TaskOrderModProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workload.aspx.cs">
+      <DependentUpon>Workload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workload.aspx.designer.cs">
+      <DependentUpon>Workload.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{c39fac38-0361-4052-acf1-094b1b678512}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53904</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53904/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

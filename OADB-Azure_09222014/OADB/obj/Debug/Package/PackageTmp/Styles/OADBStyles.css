@@ -1,0 +1,211 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font: normal 12px Verdana;
+    color: black;
+}
+
+A:link {
+    text-decoration: none;
+    color: #3333cc;
+}
+
+A:visited {
+    text-decoration: none;
+    color: #333399;
+}
+
+A:active {
+    text-decoration: none;
+    color: #333399;
+}
+
+A:hover {
+    text-decoration: underline;
+    color: #3333cc;
+}
+
+.errorMessage {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana;
+    color: red;
+    vertical-align: middle;
+}
+
+.label {
+    font-size: 8pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: GrayText;
+    vertical-align: middle;
+}
+
+.labelBold {
+    font-size: 9pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: black;
+    vertical-align: middle;
+}
+
+.message {
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: black;
+    vertical-align: middle;
+}
+
+.textbox, textarea {
+    border: 1px solid silver;
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: #ffffff;
+}
+
+.textboxReadOnly {
+    border-width: thin;
+    border-style: solid;
+    border-color: gray;
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: silver;
+}
+
+.tableheader {
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: black;
+    background-color: lightslategray;
+    vertical-align: middle;
+}
+
+.tableheaderNotBold {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Verdana;
+    color: black;
+    background-color: #C2C6CC;
+    vertical-align: middle;
+}
+
+.PageFooter {
+    font-family: Verdana;
+    font-size: xx-small;
+}
+
+.PageHeader {
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: black;
+    vertical-align: middle;
+}
+
+.HomePageCells {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: cadetblue;
+}
+
+.gridViewStyle {
+    width: 100%;
+    background-color: #ffffff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+.FooterStyle {
+    border: none;
+    font-weight: bold;
+    background-color: #dae3ee;
+    text-align: right;
+}
+
+.gridViewStyle th {
+    padding: 4px 2px;
+    color: #ffffff;
+    background: #424242 repeat-x top;
+    height: 25px;
+    border-left: solid 1px #525252;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.gridViewStyle td {
+    padding: 2px 1px 0 2px;
+    border: solid 1px #c1c1c1;
+    color: #717171;
+}
+
+.gridViewStyle .altRow {
+    background: #fcfcfc repeat-x top;
+}
+
+.gridViewFooterStyle td {
+    color: #ffffff;
+    background: #000080 repeat-x top;
+    height: 25px;
+    text-align: right;
+    font-size: 1em;
+}
+
+.gridViewPagerStyle {
+    background: #B0C4DE repeat-x top;
+}
+
+    .gridViewPagerStyle table {
+        margin: 5px 0;
+    }
+
+    /* selected page# style */
+    .gridViewPagerStyle td {
+        border-width: 0;
+        padding: 0 6px;
+        border-left: solid 1px #666;
+        font-weight: bold;
+        color: #DC143C;
+        line-height: 12px;
+    }
+
+    /* selected style for page# not selected*/
+    .gridViewPagerStyle a {
+        color: #666;
+        text-decoration: underline;
+    }
+
+        .gridViewPagerStyle a:hover {
+            color: #0000FF;
+            border: solid 1px #0e509e;
+        }
+
+.gridViewStyle a.urlNav:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.gridViewStyle a.urlNav:visited {
+    color: #EE82EE;
+    text-decoration: none;
+}
+
+.gridViewStyle a.urlNav:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.HTMLTableHeader {
+    color:white;
+    background-color:#424242;
+    height:25px;
+    border-left: 1px solid #525252;
+    font-weight:bold;
+    padding: 4px 2px;
+}
+
