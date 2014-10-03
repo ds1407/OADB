@@ -22,3 +22,15 @@ C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\OADB\bin\Micro
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.csprojResolveAssemblyReference.cache
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.dll
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.pdb
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\OADB.dll.config
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\OADB.dll
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\OADB.pdb
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\DataLayer.dll
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\DataLayer.pdb
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.csprojResolveAssemblyReference.cache
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.dll
+C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\OADB\obj\Debug\OADB.pdb
