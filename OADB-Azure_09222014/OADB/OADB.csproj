@@ -76,7 +76,6 @@
     <Content Include="Images\Mail-icon.png" />
     <Content Include="Images\tsa_banner.jpg" />
     <Content Include="Images\US_Department_of_Homeland_Security_Seal.png" />
-    <Content Include="Images\US_Department_of_Homeland_Security_Seal.svg" />
     <Content Include="OADB.Master" />
     <Content Include="Workload.aspx" />
     <None Include="Properties\PublishProfiles\OADB %282%29.pubxml" />

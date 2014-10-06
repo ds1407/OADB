@@ -40,6 +40,17 @@ namespace DataLayer
                 return null;
         }
 
+        public DataSet getIaaList()
+        {
+            DbCommand dbc = DB.GetSqlStringCommand("select * from [dbo].[PRIaa] order by [IaaNumber];");
+            DataSet ds = GetData(dbc);
+
+            if (ds != null && ds.Tables.Count > 0)
+                return ds;
+            else
+                return null;
+        }
+
         public DataSet getAcquisitionProfessionalList()
         {
             DbCommand dbc = DB.GetSqlStringCommand("select * from [dbo].[AcquisitionProfessional] order by [Name];");
@@ -92,6 +103,30 @@ namespace DataLayer
         public DataTable getPRContractRow(int PRId, int ContractId)
         {
             var sql = string.Format("select top 1 C.*, P.PRNumber from prcontract C left join PR P on C.PRID = P.PRId where C.PRId = {0} and P.PRId = {1};", PRId.ToString(), ContractId.ToString());
+            DbCommand dbc = DB.GetSqlStringCommand(sql);
+            DataSet ds = GetData(dbc);
+
+            if (ds != null && ds.Tables.Count > 0)
+                return ds.Tables[0];
+            else
+                return null;
+        }
+
+        public DataTable getPRIaaRow(int PRId)
+        {
+            var sql = string.Format("select top 1 I.*, P.PRNumber from prIaa I left join PR P on I.PRID = P.PRId where I.PRId = {0};", PRId.ToString());
+            DbCommand dbc = DB.GetSqlStringCommand(sql);
+            DataSet ds = GetData(dbc);
+
+            if (ds != null && ds.Tables.Count > 0)
+                return ds.Tables[0];
+            else
+                return null;
+        }
+
+        public DataTable getPRIaaRow(int PRId, int IaaId)
+        {
+            var sql = string.Format("select top 1 I.*, P.PRNumber from prIaa  C left join PR P on I.PRID = P.PRId where I.PRId = {0} and P.PRId = {1};", PRId.ToString(), IaaId.ToString());
             DbCommand dbc = DB.GetSqlStringCommand(sql);
             DataSet ds = GetData(dbc);
 
