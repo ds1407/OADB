@@ -19,6 +19,52 @@ namespace OADB
                 var PRId = int.Parse(Request.QueryString["PRId"]);
                 LoadData(PRId);
                 ViewState["PRID"] = PRId;
+
+                switch (PRId)
+                {
+                    case 1:
+                        pnlPR1WorkFlow1.Visible = false;
+                        pnlPR1WorkFlow2.Visible = false;
+                        pnlPR1WorkFlow3.Visible = true;
+                        pnlPR1WorkFlow4.Visible = false;
+                        pnlPR1WorkFlow5.Visible = false;
+                        break;
+                    case 2:
+                        pnlPR1WorkFlow1.Visible = false;
+                        pnlPR1WorkFlow2.Visible = true;
+                        pnlPR1WorkFlow3.Visible = false;
+                        pnlPR1WorkFlow4.Visible = false;
+                        pnlPR1WorkFlow5.Visible = false;
+                        break;
+                    case 3:
+                        pnlPR1WorkFlow1.Visible = true;
+                        pnlPR1WorkFlow2.Visible = false;
+                        pnlPR1WorkFlow3.Visible = false;
+                        pnlPR1WorkFlow4.Visible = false;
+                        pnlPR1WorkFlow5.Visible = false;
+                        break;
+                    case 4:
+                        pnlPR1WorkFlow1.Visible = false;
+                        pnlPR1WorkFlow2.Visible = false;
+                        pnlPR1WorkFlow3.Visible = false;
+                        pnlPR1WorkFlow4.Visible = true;
+                        pnlPR1WorkFlow5.Visible = false;
+                        break;
+                    case 5:
+                        pnlPR1WorkFlow1.Visible = false;
+                        pnlPR1WorkFlow2.Visible = false;
+                        pnlPR1WorkFlow3.Visible = false;
+                        pnlPR1WorkFlow4.Visible = false;
+                        pnlPR1WorkFlow5.Visible = true;
+                        break;
+                    default:
+                        pnlPR1WorkFlow1.Visible = true;
+                        pnlPR1WorkFlow2.Visible = false;
+                        pnlPR1WorkFlow3.Visible = false;
+                        pnlPR1WorkFlow4.Visible = false;
+                        pnlPR1WorkFlow5.Visible = false;
+                        break;
+                }
             }
         }
 

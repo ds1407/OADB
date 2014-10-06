@@ -17,6 +17,52 @@ namespace OADB
                 var PRId = int.Parse(Request.QueryString["PRId"]);
                 LoadData(PRId);
                 ViewState["PRID"] = PRId;
+
+                switch (PRId)
+                {
+                    case 1:
+                        pnlIAAWorkFlow1.Visible = false;
+                        pnlIAAWorkFlow2.Visible = false;
+                        pnlIAAWorkFlow3.Visible = true;
+                        pnlIAAWorkFlow4.Visible = false;
+                        pnlIAAWorkFlow5.Visible = false;
+                        break;
+                    case 2:
+                        pnlIAAWorkFlow1.Visible = false;
+                        pnlIAAWorkFlow2.Visible = true;
+                        pnlIAAWorkFlow3.Visible = false;
+                        pnlIAAWorkFlow4.Visible = false;
+                        pnlIAAWorkFlow5.Visible = false;
+                        break;
+                    case 3:
+                        pnlIAAWorkFlow1.Visible = true;
+                        pnlIAAWorkFlow2.Visible = false;
+                        pnlIAAWorkFlow3.Visible = false;
+                        pnlIAAWorkFlow4.Visible = false;
+                        pnlIAAWorkFlow5.Visible = false;
+                        break;
+                    case 4:
+                        pnlIAAWorkFlow1.Visible = false;
+                        pnlIAAWorkFlow2.Visible = false;
+                        pnlIAAWorkFlow3.Visible = false;
+                        pnlIAAWorkFlow4.Visible = true;
+                        pnlIAAWorkFlow5.Visible = false;
+                        break;
+                    case 5:
+                        pnlIAAWorkFlow1.Visible = false;
+                        pnlIAAWorkFlow2.Visible = false;
+                        pnlIAAWorkFlow3.Visible = false;
+                        pnlIAAWorkFlow4.Visible = false;
+                        pnlIAAWorkFlow5.Visible = true;
+                        break;
+                    default:
+                        pnlIAAWorkFlow1.Visible = true;
+                        pnlIAAWorkFlow2.Visible = false;
+                        pnlIAAWorkFlow3.Visible = false;
+                        pnlIAAWorkFlow4.Visible = false;
+                        pnlIAAWorkFlow5.Visible = false;
+                        break;
+                }
             }
         }
 
@@ -52,7 +98,7 @@ namespace OADB
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Server.Transfer(string.Format("~/PRProfile.aspx?PRId={0}", ViewState["PRID"].ToString()), false);
+            Server.Transfer("IAALandingPage.aspx", false);
         }
 
         protected void Button6_Click(object sender, EventArgs e)
@@ -72,17 +118,17 @@ namespace OADB
 
         protected void Button_CS_Click(object sender, EventArgs e)
         {
-            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=CS", ViewState["CONTRACTID"].ToString(), ViewState["CS_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
+            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=CS", ViewState["IAAID"].ToString(), ViewState["CS_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
         }
 
         protected void Button_COTR_Click(object sender, EventArgs e)
         {
-            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=COTR", ViewState["CONTRACTID"].ToString(), ViewState["COTR_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
+            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=COTR", ViewState["IAAID"].ToString(), ViewState["COTR_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
         }
 
         protected void Button_PM_Click(object sender, EventArgs e)
         {
-            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=PM", ViewState["CONTRACTID"].ToString(), ViewState["PM_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
+            Server.Transfer(string.Format("~/AcquisitionProfessionalProfile.aspx?ContractId={0}&EmployeeId={1}&PRID={2}&RoleType=PM", ViewState["IAAID"].ToString(), ViewState["PM_EmployeeId"].ToString(), ViewState["PRID"].ToString()), false);
         }
 
     }

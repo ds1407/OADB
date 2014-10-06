@@ -15,6 +15,61 @@
     </table>
     <br />
     <br />
+    <div style="width: 900px">
+        <asp:Panel ID="pnlPR1WorkFlow1" runat="server" Visible="false">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/PRWorkFlowEvalProposals.png" />
+            <br />
+            <div style="text-align: right">
+                <asp:Label ID="lblPhase" runat="server" Text="<b>Current Phase:</b> Evaluate Proposal"></asp:Label>
+                <br />
+                <asp:Label ID="lblName" runat="server" Text="<b>POC:</b> Leroy Mendes "></asp:Label>
+                <asp:Label ID="lblDate" runat="server" Text="<b>Date:</b> 9/1/14"></asp:Label>
+            </div>
+        </asp:Panel>
+        <asp:Panel ID="pnlPR1WorkFlow2" runat="server" Visible="false">
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/PRWorkFlowAcqStrategy.png" />
+            <br />
+            <div style="text-align: right">
+                <asp:Label ID="Label1" runat="server" Text="<b>Current Phase:</b> CO/CS Finalize Acq. Strategy w/ Mission"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="<b>POC:</b> John Smith "></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="<b>Date:</b> 8/16/14"></asp:Label>
+            </div>
+        </asp:Panel>
+        <asp:Panel ID="pnlPR1WorkFlow3" runat="server" Visible="false">
+            <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/PRWorkFlowContractAwarded.png" />
+            <br />
+            <div style="text-align: right">
+                <asp:Label ID="Label4" runat="server" Text="<b>Current Phase:</b> Contract Awarded"></asp:Label>
+                <br />
+                <asp:Label ID="Label5" runat="server" Text="<b>POC:</b> Debbie Jones "></asp:Label>
+                <asp:Label ID="Label6" runat="server" Text="<b>Date:</b> 3/16/14"></asp:Label>
+            </div>
+        </asp:Panel>
+         <asp:Panel ID="pnlPR1WorkFlow4" runat="server" Visible="false">
+            <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/PRWorkFlowReviewPkg.png" />
+            <br />
+            <div style="text-align: right">
+                <asp:Label ID="Label7" runat="server" Text="<b>Current Phase:</b> CO/CS Review of PR Package"></asp:Label>
+                <br />
+                <asp:Label ID="Label8" runat="server" Text="<b>POC:</b> Michael Lee "></asp:Label>
+                <asp:Label ID="Label9" runat="server" Text="<b>Date:</b> 7/31/14"></asp:Label>
+            </div>
+        </asp:Panel>
+         <asp:Panel ID="pnlPR1WorkFlow5" runat="server" Visible="false">
+            <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/PRWorkFlowSolicitation.png" />
+            <br />
+            <div style="text-align: right">
+                <asp:Label ID="Label10" runat="server" Text="<b>Current Phase:</b> Develop and Issue Solicitation"></asp:Label>
+                <br />
+                <asp:Label ID="Label11" runat="server" Text="<b>POC:</b> Fred Salazar "></asp:Label>
+                <asp:Label ID="Label12" runat="server" Text="<b>Date:</b> 6/25/14"></asp:Label>
+            </div>
+        </asp:Panel>
+
+    </div>
+
+    <br />
     <table style="width: 800px; border-width: 1px; border-style: solid; border-color: black;">
         <tr>
             <td>
