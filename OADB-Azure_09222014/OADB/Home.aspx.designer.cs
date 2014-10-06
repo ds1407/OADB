@@ -22,6 +22,15 @@ namespace OADB {
         protected global::System.Web.UI.WebControls.HyperLink hlPRList;
         
         /// <summary>
+        /// hlIAA control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlIAA;
+        
+        /// <summary>
         /// hlContractsList control.
         /// </summary>
         /// <remarks>
@@ -74,5 +83,14 @@ namespace OADB {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink hlBudget;
+        
+        /// <summary>
+        /// hlDrawdown control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlDrawdown;
     }
 }

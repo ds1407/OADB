@@ -65,7 +65,10 @@
     <Content Include="ContractorProfile.aspx" />
     <Content Include="ContractProfile.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="Drawdown.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="IAALandingPage.aspx" />
+    <Content Include="IAAProfile.aspx" />
     <Content Include="Images\DHSLogo.jpg" />
     <Content Include="Images\ICEbanner-logo.png" />
     <Content Include="Images\ICEBanner.PNG" />
@@ -146,12 +149,33 @@
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Drawdown.aspx.cs">
+      <DependentUpon>Drawdown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Drawdown.aspx.designer.cs">
+      <DependentUpon>Drawdown.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IAALandingPage.aspx.cs">
+      <DependentUpon>IAALandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IAALandingPage.aspx.designer.cs">
+      <DependentUpon>IAALandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IAAProfile.aspx.cs">
+      <DependentUpon>IAAProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IAAProfile.aspx.designer.cs">
+      <DependentUpon>IAAProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="OADB.Master.cs">
       <DependentUpon>OADB.Master</DependentUpon>

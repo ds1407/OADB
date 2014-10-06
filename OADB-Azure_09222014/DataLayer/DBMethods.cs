@@ -113,6 +113,18 @@ namespace DataLayer
                 return null;
         }
 
+        public DataSet getPRDrawDownAmts()
+        {
+            DbCommand dbc = DB.GetSqlStringCommand("select PRNumber, CumulativePRAmt, AmtExpensedToDate, CumulativePRAmt-AmtExpensedToDate  as [PRamtRemaining] from [dbo].[PR];");
+            DataSet ds = GetData(dbc);
+
+            if (ds != null && ds.Tables.Count > 0)
+                return ds;
+            else
+                return null;
+        }
+
+
         public DataTable getTaskOrderRow(int ContractId)
         {
             var sql = string.Format("select top 1 * from [dbo].[TaskOrder] where ContractId = {0};", ContractId.ToString());
