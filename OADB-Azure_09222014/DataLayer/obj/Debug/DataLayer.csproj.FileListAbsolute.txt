@@ -1,14 +1,3 @@
-C:\Projects\OADB\DataLayer\bin\Debug\DataLayer.dll
-C:\Projects\OADB\DataLayer\bin\Debug\DataLayer.pdb
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Data.Edm.dll
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Data.Edm.xml
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
-C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
-C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.dll
-C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.pdb
-C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\DataLayer.dll
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\DataLayer.pdb
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\Microsoft.Data.Edm.dll
@@ -17,11 +6,19 @@ C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\bin\
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.dll
 C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.pdb
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\DataLayer.dll
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\DataLayer.pdb
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\Microsoft.Data.Edm.dll
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\Microsoft.Data.Edm.xml
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.dll
-C:\Users\dsanidad\Documents\GitHub\OADB\OADB-Azure_09222014\DataLayer\obj\Debug\DataLayer.pdb
+C:\Projects\OADB\DataLayer\bin\Debug\DataLayer.dll
+C:\Projects\OADB\DataLayer\bin\Debug\DataLayer.pdb
+C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Data.Edm.dll
+C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Data.Edm.xml
+C:\Projects\OADB\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.dll
+C:\Projects\OADB\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\dsanidad\Documents\Deloitte\DHS\OADB\2014-10-08 - OADB - Leroy\DataLayer\obj\Debug\DataLayer.pdb

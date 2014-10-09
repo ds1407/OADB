@@ -58,17 +58,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AcqItemDetail.aspx" />
+    <Content Include="AcqItemStatus.aspx" />
     <Content Include="AcqProfLandingPage.aspx" />
     <Content Include="AcquisitionProfessionalProfile.aspx" />
     <Content Include="Budget.aspx" />
     <Content Include="ContractLandingPage.aspx" />
     <Content Include="ContractorProfile.aspx" />
     <Content Include="ContractProfile.aspx" />
+    <Content Include="CreateAcquisitionItem.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="Drawdown.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="IAALandingPage.aspx" />
     <Content Include="IAAProfile.aspx" />
+    <Content Include="Images\acq1.png" />
+    <Content Include="Images\acq1c.png" />
+    <Content Include="Images\acq2.png" />
+    <Content Include="Images\acq2c.png" />
+    <Content Include="Images\acq3.png" />
+    <Content Include="Images\acq4.png" />
     <Content Include="Images\DHSLogo.jpg" />
     <Content Include="Images\IAAWorkFlowAcceptIAA.png" />
     <Content Include="Images\IAAWorkFlowAcqStrategy.png" />
@@ -86,7 +95,11 @@
     <Content Include="Images\PRWorkFlowSolicitation.png" />
     <Content Include="Images\tsa_banner.jpg" />
     <Content Include="Images\US_Department_of_Homeland_Security_Seal.png" />
+    <Content Include="Images\US_Department_of_Homeland_Security_Seal.svg" />
+    <Content Include="InitializeHome.aspx" />
     <Content Include="OADB.Master" />
+    <Content Include="PRPackage.aspx" />
+    <Content Include="ViewAcquisitionItem.aspx" />
     <Content Include="Workload.aspx" />
     <None Include="Properties\PublishProfiles\OADB %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\OADB.pubxml" />
@@ -109,6 +122,20 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcqItemDetail.aspx.cs">
+      <DependentUpon>AcqItemDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcqItemDetail.aspx.designer.cs">
+      <DependentUpon>AcqItemDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcqItemStatus.aspx.cs">
+      <DependentUpon>AcqItemStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcqItemStatus.aspx.designer.cs">
+      <DependentUpon>AcqItemStatus.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AcqProfLandingPage.aspx.cs">
       <DependentUpon>AcqProfLandingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,6 +178,13 @@
     <Compile Include="ContractProfile.aspx.designer.cs">
       <DependentUpon>ContractProfile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CreateAcquisitionItem.aspx.cs">
+      <DependentUpon>CreateAcquisitionItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateAcquisitionItem.aspx.designer.cs">
+      <DependentUpon>CreateAcquisitionItem.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -171,6 +205,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InitializeHome.aspx.cs">
+      <DependentUpon>InitializeHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InitializeHome.aspx.designer.cs">
+      <DependentUpon>InitializeHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="IAALandingPage.aspx.cs">
       <DependentUpon>IAALandingPage.aspx</DependentUpon>
@@ -201,6 +242,13 @@
       <DependentUpon>PRLandingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PRPackage.aspx.cs">
+      <DependentUpon>PRPackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRPackage.aspx.designer.cs">
+      <DependentUpon>PRPackage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PRProfile.aspx.cs">
       <DependentUpon>PRProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,6 +276,13 @@
     </Compile>
     <Compile Include="TaskOrderModProfile.aspx.designer.cs">
       <DependentUpon>TaskOrderModProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAcquisitionItem.aspx.cs">
+      <DependentUpon>ViewAcquisitionItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAcquisitionItem.aspx.designer.cs">
+      <DependentUpon>ViewAcquisitionItem.aspx</DependentUpon>
     </Compile>
     <Compile Include="Workload.aspx.cs">
       <DependentUpon>Workload.aspx</DependentUpon>
