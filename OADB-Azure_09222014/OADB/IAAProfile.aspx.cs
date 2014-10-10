@@ -62,7 +62,7 @@ namespace OADB
 
         protected void btnIAAInitialization_Click(object sender, EventArgs e)
         {
-            lblCurentPhase.Text = "<b> Phase:</b> Initialization";
+            lblCurentPhase.Text = "<b> Phase:</b> Initialize";
             lblWorkFlowDate.Text = "<b>Date:</b> 4/1/14";
             lblWorkFlowPOC.Text = "<b>POC:</b> Jon Mchenry ";
         }
@@ -144,7 +144,7 @@ namespace OADB
 
         protected void btnIAAInitialization1_Click(object sender, ImageClickEventArgs e)
         {
-            lblCurentPhase.Text = "<b> Phase:</b> Initialization";
+            lblCurentPhase.Text = "<b> Phase:</b> Initialize";
             lblWorkFlowDate.Text = "<b>Date:</b> 2/11/14";
             lblWorkFlowPOC.Text = "<b>POC:</b> Janet Shale ";
         }

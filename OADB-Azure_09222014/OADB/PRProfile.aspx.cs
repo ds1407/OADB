@@ -104,7 +104,7 @@ namespace OADB
 
         protected void btnPRInit_Click(object sender, ImageClickEventArgs e)
         {
-            lblPhase.Text = "<b>Phase:</b> Initiate";
+            lblPhase.Text = "<b>Phase:</b> Initialize";
             lblDate.Text = "<b>Date:</b> 8/8/14";
             lblName.Text = "<b>POC:</b> Fred Mackey ";
         }
