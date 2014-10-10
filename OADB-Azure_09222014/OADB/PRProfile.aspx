@@ -17,7 +17,9 @@
     <br />
     <div style="width: 900px">
         <asp:Panel ID="pnlPR1WorkFlow1" runat="server" Visible="false">
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/PRWorkFlowEvalProposals.png" />
+              <table><tr><td style="white-space:nowrap; vertical-align:top">     
+<asp:ImageButton ID="btnPRInit" runat="server"  ImageUrl="~/Images/PRInitiat.png" OnClick="btnPRInit_Click" /><asp:ImageButton ID="btnPRReview" runat="server"  ImageUrl="~/Images/PRReviewPkg.png" OnClick="btnPRReview_Click" /><asp:ImageButton ID="btnPRAcq" runat="server"  ImageUrl="~/Images/PRAcq.png" OnClick="btnPRAcq_Click"  /><asp:ImageButton ID="btnPRSolicitation" runat="server"  ImageUrl="~/Images/PRSolicitation.png" OnClick="btnPRSolicitation_Click"/><asp:ImageButton ID="btnPREval" runat="server"  ImageUrl="~/Images/PREval.png" OnClick="btnPREval_Click"/><asp:ImageButton ID="btnPRAward" runat="server"  ImageUrl="~/Images/PRAward.png" OnClick="btnPRAward_Click"    />
+            </td></tr></table> 
             <br />
             <div style="text-align: right">
                 <asp:Label ID="lblPhase" runat="server" Text="<b>Current Phase:</b> Evaluate Proposal"></asp:Label>

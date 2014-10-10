@@ -23,57 +23,34 @@
         </tr>
     </table>
     <br />
-    <div style="width: 900px">
-        <asp:Panel ID="pnlIAAWorkFlow1" runat="server" Visible="false">
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/IAAWorkFlowAcceptIAA.png" />
-            <br />
-            <div style="text-align: right">
-                <asp:Label ID="lblPhase" runat="server" Text="<b>Current Phase:</b> Receiving Agency Accepts the IAA"></asp:Label>
-                <br />
-                <asp:Label ID="lblName" runat="server" Text="<b>POC:</b> Lori Mendes "></asp:Label>
-                <asp:Label ID="lblDate" runat="server" Text="<b>Date:</b> 8/1/14"></asp:Label>
-            </div>
+    <div style="width: 900px; white-space: nowrap"">
+        <asp:Panel ID="pnlIAAWorkFlow0" runat="server" Visible="true" style="white-space: nowrap">
+     <table><tr><td style="white-space:nowrap; vertical-align:top">     
+<asp:ImageButton ID="btnIAAInitialization" runat="server"  ImageUrl="~/Images/IAAWorkFlowInit.png" OnClick="btnIAAInitialization_Click" /><asp:ImageButton ID="btnIAAWorkflowReview" runat="server"  ImageUrl="~/Images/IAAWorkFlowReviewPkg.png" OnClick="btnIAAWorkflowReview_Click" /><asp:ImageButton ID="btnIAAWorkFlowAcq" runat="server"  ImageUrl="~/Images/IAAWorkFlowAcqStrategy0.png" OnClick="btnIAAWorkflowAcq_Click"  /><asp:ImageButton ID="btnIAAWorkFlowPrepare" runat="server"  ImageUrl="~/Images/IAAWorkFlowPrepareDoc0.png" OnClick="btnIAAWorkFlowPrepare_Click"/><asp:ImageButton ID="btnIAAWorkReceiveDocs0" runat="server"  ImageUrl="~/Images/IAAWorkFlowDocsSent0.png" OnClick="btnIAAWorkReceiveDocs_Click"/><asp:ImageButton ID="btnIAAWorkAccept" runat="server"  ImageUrl="~/Images/IAAWorkFlowAcceptIAA0.png" OnClick="btnIAAWorkAccept_Click"    />
+            </td></tr></table> 
+            </asp:Panel>
+
+         <asp:Panel ID="pnlIAAWorkFlow1" runat="server" Visible="false">
+              <table><tr><td style="white-space:nowrap; vertical-align:top">     
+<asp:ImageButton ID="btnIAAInitialization1" runat="server"  ImageUrl="~/Images/IAAWorkFlowInit0.png" OnClick="btnIAAInitialization1_Click" /><asp:ImageButton ID="btnIAAWorkflowReview1" runat="server"  ImageUrl="~/Images/IAAWorkFlowReviewPkg0.png" OnClick="btnIAAWorkflowReview1_Click" /><asp:ImageButton ID="ImageButton3" runat="server"  ImageUrl="~/Images/IAAWorkFlowAcqStrategy1.png" OnClick="btnIAAWorkflowAcq1_Click"  /><asp:ImageButton ID="ImageButton4" runat="server"  ImageUrl="~/Images/IAAWorkFlowPrepareDoc0.png" OnClick="btnIAAWorkFlowPrepare1_Click"/><asp:ImageButton ID="ImageButton5" runat="server"  ImageUrl="~/Images/IAAWorkFlowDocsSent1.png" OnClick="btnIAAWorkReceiveDocs1_Click"/><asp:ImageButton ID="ImageButton6" runat="server"  ImageUrl="~/Images/IAAWorkFlowAcceptIAA.png" OnClick="btnIAAWorkAccept1_Click"    />
+            </td></tr></table> 
+            
+            
         </asp:Panel>
-        <asp:Panel ID="pnlIAAWorkFlow2" runat="server" Visible="false">
-            <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/IAAWorkFlowAcqStrategy.png" />
-            <br />
             <div style="text-align: right">
-                <asp:Label ID="Label1" runat="server" Text="<b>Current Phase:</b> CO/CS Finalize Acq. Strategy w/ Mission"></asp:Label>
+                <asp:Label ID="lblCurentPhase" runat="server" Text="<b>Current Phase:</b> Receiving Agency Accepts the IAA"></asp:Label>
                 <br />
-                <asp:Label ID="Label2" runat="server" Text="<b>POC:</b> Jane Smith "></asp:Label>
-                <asp:Label ID="Label3" runat="server" Text="<b>Date:</b> 7/16/14"></asp:Label>
+                <asp:Label ID="lblWorkFlowPOC" runat="server" Text="<b>POC:</b> Lori Mendes "></asp:Label>
+                <asp:Label ID="lblWorkFlowDate" runat="server" Text="<b>Date:</b> 8/1/14"></asp:Label>
             </div>
-        </asp:Panel>
-        <asp:Panel ID="pnlIAAWorkFlow3" runat="server" Visible="false">
-            <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/IAAWorkFlowDocsSent.png" />
-            <br />
-            <div style="text-align: right">
-                <asp:Label ID="Label4" runat="server" Text="<b>Current Phase:</b> IAA Docs sent to Receiving Agency"></asp:Label>
-                <br />
-                <asp:Label ID="Label5" runat="server" Text="<b>POC:</b> Doug Jones "></asp:Label>
-                <asp:Label ID="Label6" runat="server" Text="<b>Date:</b> 2/16/14"></asp:Label>
-            </div>
-        </asp:Panel>
-         <asp:Panel ID="pnlIAAWorkFlow4" runat="server" Visible="false">
-            <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/IAAWorkFlowPrepareDoc.png" />
-            <br />
-            <div style="text-align: right">
-                <asp:Label ID="Label7" runat="server" Text="<b>Current Phase:</b> CO/CS Prepares IAA Documents "></asp:Label>
-                <br />
-                <asp:Label ID="Label8" runat="server" Text="<b>POC:</b> Michelle Lee "></asp:Label>
-                <asp:Label ID="Label9" runat="server" Text="<b>Date:</b> 6/31/14"></asp:Label>
-            </div>
-        </asp:Panel>
-         <asp:Panel ID="pnlIAAWorkFlow5" runat="server" Visible="false">
-            <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/IAAWorkFlowReviewPkg.png" />
-            <br />
-            <div style="text-align: right">
-                <asp:Label ID="Label10" runat="server" Text="<b>Current Phase:</b> CO/CS Review of PR Package "></asp:Label>
-                <br />
-                <asp:Label ID="Label11" runat="server" Text="<b>POC:</b> Frankie Salazar "></asp:Label>
-                <asp:Label ID="Label12" runat="server" Text="<b>Date:</b> 5/25/14"></asp:Label>
-            </div>
-        </asp:Panel>
+                   
+            
+        
+        
+      
+               
+       
+        
 
     </div>
 

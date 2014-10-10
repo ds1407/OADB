@@ -23,9 +23,9 @@ namespace OADB
                 switch (PRId)
                 {
                     case 1:
-                        pnlPR1WorkFlow1.Visible = false;
+                        pnlPR1WorkFlow1.Visible = true;
                         pnlPR1WorkFlow2.Visible = false;
-                        pnlPR1WorkFlow3.Visible = true;
+                        pnlPR1WorkFlow3.Visible = false;
                         pnlPR1WorkFlow4.Visible = false;
                         pnlPR1WorkFlow5.Visible = false;
                         break;
@@ -37,7 +37,7 @@ namespace OADB
                         pnlPR1WorkFlow5.Visible = false;
                         break;
                     case 3:
-                        pnlPR1WorkFlow1.Visible = true;
+                        pnlPR1WorkFlow1.Visible = false;
                         pnlPR1WorkFlow2.Visible = false;
                         pnlPR1WorkFlow3.Visible = false;
                         pnlPR1WorkFlow4.Visible = false;
@@ -100,6 +100,48 @@ namespace OADB
         protected void Button3_Click(object sender, EventArgs e)
         {
             Response.Redirect(string.Format("~/ContractProfile.aspx?PRId={0}", ViewState["PRID"].ToString()));
+        }
+
+        protected void btnPRInit_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Phase:</b> Initiate";
+            lblDate.Text = "<b>Date:</b> 8/8/14";
+            lblName.Text = "<b>POC:</b> Fred Mackey ";
+        }
+
+        protected void btnPRReview_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Phase:</b> CO/CS Review of PR Package";
+            lblDate.Text = "<b>Date:</b> 8/28/14";
+            lblName.Text = "<b>POC:</b> Saritha Hyder ";
+        }
+
+        protected void btnPRAcq_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Current Phase:</b> CO/CS Finalize Acq. Strategy w/ Mission";
+            lblDate.Text = "<b>Date:</b> 9/18/14";
+            lblName.Text = "<b>POC:</b> Leroy Mendes ";
+        }
+
+        protected void btnPRSolicitation_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Phase:</b> Develop and Issue Solicitation";
+            lblDate.Text = "<b>Date:</b> N/A";
+            lblName.Text = "<b>POC:</b> N/A";
+        }
+
+        protected void btnPREval_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Phase:</b> Evaluate Proposals";
+            lblDate.Text = "<b>Date:</b> N/A";
+            lblName.Text = "<b>POC:</b> N/A ";
+        }
+
+        protected void btnPRAward_Click(object sender, ImageClickEventArgs e)
+        {
+            lblPhase.Text = "<b>Phase:</b> Contract Awarded";
+            lblDate.Text = "<b>Date:</b> N/A";
+            lblName.Text = "<b>POC:</b> N/A ";
         } 
     }
 }
